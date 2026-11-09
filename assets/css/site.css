@@ -1,0 +1,24 @@
+body{margin:0;background:#EEEAE3}
+a{color:#141414}a:hover{color:#B8360A}
+.lbl{font-family:'JetBrains Mono',ui-monospace,monospace;font-size:12px;letter-spacing:.14em;text-transform:uppercase}
+.disp{font-family:'Inter Tight',system-ui,sans-serif;font-weight:600;letter-spacing:-.045em;line-height:.98;margin:0;text-wrap:balance}
+.it{font-family:'Instrument Serif',Georgia,serif;font-style:italic;font-weight:400;letter-spacing:-.01em}
+.chip{display:inline-flex;align-items:center;gap:6px;padding:6px 12px;border-radius:999px;font-family:'JetBrains Mono',ui-monospace,monospace;font-size:12px}
+.flip-face{position:absolute;inset:0;backface-visibility:hidden;-webkit-backface-visibility:hidden}
+.navlinks a{padding:8px 14px;border-radius:999px;text-decoration:none;color:#3A3733;font-size:14px}
+.navlinks a:hover{background:#E4DFD6;color:#141414}
+@media (max-width: 900px){.navlinks{display:none !important}}
+html{scroll-behavior:smooth;-webkit-text-size-adjust:100%}
+*,*::before,*::after{box-sizing:border-box}
+img{max-width:100%}
+section[id]{scroll-margin-top:80px}
+.navlinks a.active{background:#141414 !important;color:#F6F3EE !important}
+[hidden]{display:none !important}
+button{-webkit-tap-highlight-color:transparent}
+body{overflow-x:clip}
+@media (max-width: 640px){
+  .disp{letter-spacing:-.035em}
+  button[aria-label="Flip the ID card"]{width:300px !important;height:420px !important}
+  header nav > a:first-child > span:last-child > span{display:none}
+  header nav a{white-space:nowrap}
+}
